@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awsome/4.1.0/css/font-awsome.min.css">
+
+    <title>Gaming Repsonsive website</title>
+
+    <!-- scrolling effect -->
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- swiperjs -->
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome -->
+
+    <script src="https://kit.fontawesome.com/de981eceb5.js" crossorigin="anonymous"></script>
+
+    <!-- custom css file -->
+
+    <link rel="stylesheet" href="/CSS/Style.css">
+
+</head>
+
+<body>
+
+    <!-- header section -->
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+
+        <a href="#" class="logo"><span>R</span>obot-<span>V</span>ision</a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#book">Subscribe</a>
+            <a href="#packages">Packages</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#services">Services</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+
+        </div>
+
+
+        <form action="" class="search-bar-container">
+            <input type="Search" id="search-bar" placeholder="Search-here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+
+    </header>
+
+
+    <!-- login start...... -->
+
+
+    <div class="login-form-container">
+
+        <i class="fas fa-time" id="form-close"></i>
+
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="password" class="box" placeholder="enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password? <a href="#">click here</a></p>
+            <p>don't have and account<a href="#">register now</a></p>
+        </form>
+
+    </div>
+
+
+    <!-- Home section -->
+    <section class="home" id="home">
+
+        <div class="controls">
+            <span class="vid-btn active" data-src="/Videos/vid-1.mp4"></span>
+            <span class="vid-btn" data-src="/Videos/vid-2.mp4"></span>
+            <span class="vid-btn" data-src="/Videos/vid-3.mp4"></span>
+            <span class="vid-btn" data-src="/Videos/vid-4.mp4"></span>
+            <span class="vid-btn" data-src="/Videos/vid-5.mp4"></span>
+        </div>
+
+        <div class="video-container">
+            <video src="/Videos/vid-1.mp4" id="video-slider" loop autoplay></video>
+        </div>
+    </section>
+    <!-- home ends -->
+
+
+    <!-- Book section -->
+
+    <section class="book" id="book">
+
+        <h1 class="heading">
+            <span>S</span>
+            <span>u</span>
+            <span>b</span>
+            <span>s</span>
+            <span>c</span>
+            <span>r</span>
+            <span>i</span>
+            <span>b</span>
+            <span>e</span>
+        </h1>
+
+        <div class="row">
+
+            <div class="image" data-aos="fade-up-right">
+                <img src="https://cdn.dribbble.com/users/77598/screenshots/16399264/media/d86ceb1ad552398787fb76f343080aa6.gif"
+                    alt="">
+            </div>
+
+            <form action="" data-aos="fade-up-left">
+
+                <div class="inputbox">
+                    <h3>Enter Your Name</h3>
+                    <input type="text" placeholder="Enter Name">
+                </div>
+
+                <div class="inputbox">
+                    <h3>Enter Your Mail</h3>
+                    <input type="email" placeholder="Enter Your Email">
+                </div>
+
+                <div class="inputbox">
+                    <h3>Birth Date</h3>
+                    <input type="date">
+                </div>
+
+                <div class="inputbox">
+                    <h3>Password</h3>
+                    <input type="password" placeholder="Enter New password">
+                </div>
+
+                <input type="submit" class="btn" value="Subscribe Now">
+        </div>
+
+        </form>
+
+    </section>
+
+    <!-- packeages section -->
+
+    <section class="packages" id="packages">
+
+        <h1 class="heading">
+            <span>P</span>
+            <span>a</span>
+            <span>c</span>
+            <span>K</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box" data-aos="zoom-in-right">
+                <img src="/Images/Destiny.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-dice-d6"></i> Destiny-2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed, at!</p>
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$89.99 <span>$110.00</span></div>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+
+
+            <div class="box" data-aos="zoom-in-up">
+                <img src="/Images/GTA_V.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-dice-d6"></i> GTA-V</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed, at!</p>
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+
+                    </div>
+                    <div class="price">$120.00 <span>$200.00</span></div>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+
+
+            <div class="box" data-aos="zoom-in-left">
+                <img src="/Images/Car-Gaming.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-dice-d6"></i> Asphalt-9 Legends</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed, at!</p>
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$59.99 <span> $99.00</span></div>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+
+
+            <div class="box" data-aos="zoom-in-right">
+                <img src="/Images/Red Dead.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-dice-d6"></i> Red Dead-2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed, at!</p>
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                        <i class="far fa-star"></i>
+
+                    </div>
+                    <div class="price">$200.00 <span> $350.00</span></div>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+
+
+            <div class="box" data-aos="zoom-in-up">
+                <img src="/Images/Fifa2022.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-dice-d6"></i> FIFA 2022</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed, at!</p>
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span> $120.00</span></div>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+
+
+            <div class="box" data-aos="zoom-in-left">
+                <img src="/Images/dota-2.png" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-dice-d6"></i> Dota-2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed, at!</p>
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$50.00 <span> $100.00</span></div>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- Services start -->
+
+    <section class="services" id="services">
+
+        <h1 class="heading">
+            <span>S</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="box" data-aos="fade-in">
+                <i class="fas fa-dice-d6"></i>
+                <h3>Afforable games with original License</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, earum ipsum? Quae ipsam inventore
+                    debitis? Voluptas dicta dolorem delectus ut ullam placeat distinctio sapiente porro.</p>
+            </div>
+
+            <div class="box" data-aos="fade-in">
+                <i class="fas fa-user-secret"></i>
+                <h3>Privacy Guidelines</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, earum ipsum? Quae ipsam
+                    inventore debitis? Voluptas dicta dolorem delectus ut ullam placeat distinctio sapiente porro.
+                </p>
+            </div>
+
+            <div class="box" data-aos="fade-in">
+                <i class="fab fa-buffer"></i>
+                <h3>Premium Offers</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, earum ipsum? Quae ipsam
+                    inventore debitis? Voluptas dicta dolorem delectus ut ullam placeat distinctio sapiente porro.
+                </p>
+            </div>
+
+            <div class="box" data-aos="fade-in">
+                <i class="fas fa-headset"></i>
+                <h3>24/7 Support</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, earum ipsum? Quae ipsam
+                    inventore debitis? Voluptas dicta dolorem delectus ut ullam placeat distinctio sapiente porro.
+                </p>
+            </div>
+            <div class="box" data-aos="fade-in" >
+                <i class="fas fa-robot"></i>
+                <h3>Virtual Assistant Support</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, earum ipsum? Quae ipsam
+                    inventore debitis? Voluptas dicta dolorem delectus ut ullam placeat distinctio sapiente porro.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- gallery Section -->
+
+    <section class="gallery" id="gallery">
+        <h1 class="heading">
+            <span>G</span>
+            <span>a</span>
+            <span>l</span>
+            <span>l</span>
+            <span>e</span>
+            <span>r</span>
+            <span>y</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="box" data-aos="fade-up-right">
+                <img src="/Images/GTA_V.jpg" alt="">
+                <div class="content">
+                    <h3>Amazing Game</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus sit in nam et, vel voluptas
+                        eveniet repudiandae quidem officia illum!</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <img src="/Images/Red Dead.jpg" alt="">
+                <div class="content">
+                    <h3>Amazing Game</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus sit in nam et, vel voluptas
+                        eveniet repudiandae quidem officia illum!</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <img src="/Images/angry-bird.jpg" alt="">
+                <div class="content">
+                    <h3>Amazing Game</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus sit in nam et, vel voluptas
+                        eveniet repudiandae quidem officia illum!</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up-left">
+                <img src="/Images/dota-2.png" alt="">
+                <div class="content">
+                    <h3>Amazing Game</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus sit in nam et, vel voluptas
+                        eveniet repudiandae quidem officia illum!</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up-right">
+                <img src="/Images/Destiny.jpg" alt="">
+                <div class="content">
+                    <h3>Amazing Game</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus sit in nam et, vel voluptas
+                        eveniet repudiandae quidem officia illum!</p>
+                    <a href="#" class="btn">See more</a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <img src="/Images/Fifa2022.jpg" alt="">
+                <div class="content">
+                    <h3>Amazing Game</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus sit in nam et, vel voluptas
+                        eveniet repudiandae quidem officia illum!</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <img src="/Images/Fornite.jpg" alt="">
+                <div class="content">
+                    <h3>Amazing Game</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus sit in nam et, vel voluptas
+                        eveniet repudiandae quidem officia illum!</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up-left">
+                <img src="/Images/God of War.jpg" alt="">
+                <div class="content">
+                    <h3>Amazing Game</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus sit in nam et, vel voluptas
+                        eveniet repudiandae quidem officia illum!</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up-right">
+                <img src="/Images/Car-Gaming.jpg" alt="">
+                <div class="content">
+                    <h3>Amazing Game</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <img src="/Images/spider-man.png" alt="">
+                <div class="content">
+                    <h3>Amazing Game</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <img src="/Images/NFS.png" alt="">
+                <div class="content">
+                    <h3>Amazing Game</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up-left">
+                <img src="/Images/COD.jpg" alt="">
+                <div class="content">
+                    <h3>Amazing Game</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus sit in nam et</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- Review -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading">
+            <span>R</span>
+            <span>e</span>
+            <span>v</span>
+            <span>i</span>
+            <span>e</span>
+            <span>w</span>
+        </h1>
+
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="/Images/Creaters/Aishwary-Gathe.jpg" alt="">
+                        <h3>Aishwary Gathe</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime sint aliquam maiores
+                            quisquam! Ipsum eveniet, in expedita quidem quam doloremque.</p>
+
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="/Images/Creaters/Payal-Kamlakar.jpg" alt="">
+                        <h3>Payal Kalamkar</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime sint aliquam maiores
+                            quisquam! Ipsum eveniet, in expedita quidem quam doloremque.</p>
+
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="/Images/Creaters/Radhika-Wasade.jpeg" alt="">
+                        <h3>Radhika Wasade</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime sint aliquam maiores
+                            quisquam! Ipsum eveniet, in expedita quidem quam doloremque.</p>
+
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="/Images/Creaters/Sakshi-Junghare.jpeg" alt="">
+                        <h3>Sakshi Junghare</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime sint aliquam maiores
+                            quisquam! Ipsum eveniet, in expedita quidem quam doloremque.</p>
+
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="/Images/Creaters/Sawyam-Dumane.jpg" alt="">
+                        <h3>Sawyam Dumane</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime sint aliquam maiores
+                            quisquam! Ipsum eveniet, in expedita quidem quam doloremque.</p>
+
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="/Images/Creaters/Prathmesh-Gothe.jpg" alt="">
+                        <h3>Prathamesh Gothe</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime sint aliquam maiores
+                            quisquam! Ipsum eveniet, in expedita quidem quam doloremque.</p>
+
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Contact -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"
+        >
+            <span>C</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+        </h1>
+
+        <div class="row">
+            <div class="image" data-aos="fade-up-right">
+                <img src="https://cdn.dribbble.com/users/887568/screenshots/10731128/media/7906452aa41bdfcef12d88f8b803af23.gif"
+                    alt="">
+            </div>
+            <form action="" data-aos="fade-up-left">
+                <div class="inputBox">
+                    <input type="text" placeholder="Name">
+                    <input type="Email" placeholder="Email">
+                </div>
+
+
+                <div class="inputBox">
+                    <input type="number" placeholder="Number"></input>
+                    <input type="text" placeholder="Subject">
+                </div>
+
+                <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn" value="Send Message">
+            </form>
+        </div>
+    </section>
+
+
+    <!-- brand -->
+
+    <section class="brand-container">
+
+        <div class="swiper  brand-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>About Us</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, nemo fugiat quos minima illo explicabo
+                    repudiandae blanditiis esse consequuntur officiis quo neque amet? Beatae praesentium voluptatibus,
+                    odio voluptatem fugiat quam.</p>
+            </div>
+
+            <div class="box">
+                <h3>Our Location</h3>
+                <a href="#">Chandrapur</a>
+                <a href="#">Ballarsha</a>
+                <a href="#">Nagpur</a>
+                <a href="#">Mul</a>
+                <a href="#">Bharmapuri</a>
+            </div>
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#">Home</a>
+                <a href="#">Subscribe</a>
+                <a href="#">Gallery</a>
+                <a href="#">Packages</a>
+                <a href="#">Services</a>
+                <a href="#">Review</a>
+                <a href="#">Contact</a>
+            </div>
+
+            <div class="box">
+                <h3>Follow Us</h3>
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+            </div>
+        </div>
+
+        <h1 class="credit">Created By <span>Mr.Aishwary Gathe | Ms.Payal Kalamkar | Mr. Swayam Dumane | Ms.Radhika
+                Wasaded | Ms. Sakshi Junghare |Mr.Prathamesh Gothe</span> <br> | All rights reserved! |</h1>
+    </section>
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="/JS/Script.js"></script>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init(
+            {
+                duration : 1000
+            }
+        );
+    </script>
+
+
+</body>
+
+</html>
